@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '10.2.4',
-        'version' => '10.2.4.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'f11f035856e4110c64d9bc5c3b2a54c46007f08e',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -62,6 +62,15 @@
             'install_path' => __DIR__ . '/../doctrine/lexer',
             'aliases' => array(),
             'reference' => '861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6',
+            'dev_requirement' => false,
+        ),
+        'drupal/asset_injector' => array(
+            'pretty_version' => '2.19.0',
+            'version' => '2.19.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/asset_injector',
+            'aliases' => array(),
+            'reference' => '8.x-2.19',
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
@@ -245,12 +254,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '10.2.4',
-            'version' => '10.2.4.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'f11f035856e4110c64d9bc5c3b2a54c46007f08e',
             'dev_requirement' => false,
         ),
         'egulias/email-validator' => array(
