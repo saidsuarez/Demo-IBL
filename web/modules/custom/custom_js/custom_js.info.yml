@@ -1,0 +1,11 @@
+name: "Custom JS"
+type: module
+description: "Agrega código JavaScript personalizado al sitio."
+core_version_requirement: ^8 || ^9
+package: Custom
+
+libraries:
+  - custom-js:
+      version: 1.x
+      js:
+        js/custom.js: {}
