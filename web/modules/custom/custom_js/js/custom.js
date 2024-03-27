@@ -1,3 +1,4 @@
+console.log('El código JavaScript se está ejecutando correctamente.');
 // Función para obtener el estado del inmueble asociado al nodo mediante AJAX
 function obtenerEstadoInmuebleAjax(nodoId, callback) {
     // Realizar una solicitud AJAX al servidor Drupal para obtener el estado del inmueble asociado al nodo
