@@ -295,3 +295,8 @@ tags:
   css:
     theme:
       css/components/tags.css: {}
+
+mapapp:
+  version: VERSION
+  js:
+    js/mapapp.js: {}
